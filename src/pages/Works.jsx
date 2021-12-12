@@ -1,5 +1,4 @@
 import { WorksContent } from '../components/WorksContent';
-import ImgPerfil from '../resources/img/perfil.jpg';
 
 const worksData = [
     // {

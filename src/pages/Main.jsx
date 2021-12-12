@@ -5,7 +5,7 @@ import ImgPerfil from '../resources/img/perfil.jpg';
 
 function Main() {
     return (
-        <main className="l-main">
+        <main className="l-main" id="inicio">
             <div className="home__container bd-grid">
                 <div className="home__data">
                     <div className="home__img">

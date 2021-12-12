@@ -14,7 +14,7 @@ function Header() {
                 </div>
 
                 <div>
-                    <a href='#' className='nav__logo'>Jefferson</a>
+                    <a href='#inicio' className='nav__logo'>Jefferson</a>
                 </div>
 
                 <div className={`nav__menu ${show && 'show'}`} id="nav-menu">
@@ -24,7 +24,7 @@ function Header() {
 
                     <ul className="nav_list">
                         <li className="nav__item"> 
-                            <a href="#" className="nav__link active">Inicio</a>
+                            <a href="#inicio" className="nav__link active">Inicio</a>
                         </li>
                         <li className="nav__item"> 
                             <a href="#about" className="nav__link">Sobre mi</a>

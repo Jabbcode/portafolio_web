@@ -1,6 +1,5 @@
-import React from 'react';
 import ImgPerfil from '../resources/img/perfil.jpg';
-
+import CV from '../resources/CV.pdf';
 
 
 function Main() {
@@ -30,7 +29,7 @@ function Main() {
                         </a>
                     </div>
 
-                    <a download="CV.pdf" href="#a" className="button home__button">Descargar CV</a>
+                    <a download href={ CV } className="button home__button">Descargar CV</a>
                 </div>
             </div>
         </main>

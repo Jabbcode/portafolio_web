@@ -43,7 +43,7 @@ function Services() {
 
                 {
                     servicesData.map( ( data ) => {
-                        return  <ServicesContent icon={ data.icon } title={ data.title } description={ data.description } />
+                        return  <ServicesContent key={data.icon} icon={ data.icon } title={ data.title } description={ data.description } />
                     })   
                 }
 

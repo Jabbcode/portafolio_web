@@ -58,7 +58,7 @@ function Skills() {
 
                     {
                         skillsFrontendData.map( ( data ) => {
-                            return <SkillsData name={ data.name } number={ data.number } porcentaje={ data.porcentaje } />
+                            return <SkillsData key={data.name} name={ data.name } number={ data.number } porcentaje={ data.porcentaje } />
                         })
                     }
                     
@@ -69,7 +69,7 @@ function Skills() {
 
                     {
                         skillsBackendData.map( ( data ) => {
-                            return <SkillsData name={ data.name } number={ data.number } porcentaje={ data.porcentaje } />
+                            return <SkillsData key={data.name} name={ data.name } number={ data.number } porcentaje={ data.porcentaje } />
                         })
                     }
 

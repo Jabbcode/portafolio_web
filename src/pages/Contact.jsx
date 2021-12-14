@@ -1,23 +1,50 @@
-import React from 'react'
+import { useState } from 'react'
 
 function Contact() {
+
+    const [form, setForm] = useState({
+        name: '',
+        mail: '',
+        project: '',
+        message: '',
+    });
+
+    const handleChange = (e) => {
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value
+        });
+    }
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setForm({
+            name: '',
+            mail: '',
+            project: '',
+            message: '',
+        });
+        
+        console.log(form);
+    }
+
     return (
         <section className="contact section" id="contact">
             <span className="section-subtitle">Contacta me</span>
             <h2 className="section-title">Ponte en contacto</h2>
 
             <div className="contact__container bd-grid-form">
-                <form action="" className="contact__form">
+                <form onSubmit={handleSubmit} className="contact__form">
                     <div className="contact__inputs">
-                        <input type="text" placeholder="Nombre" className="contact__input"/>
-                        <input type="mail" placeholder="Correo Electronico" className="contact__input"/>
+                        <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="Nombre" className="contact__input"/>
+                        <input type="mail" name="mail" value={form.mail} onChange={handleChange} placeholder="Correo Electronico" className="contact__input"/>
                     </div>
                     
-                    <input type="text" placeholder="Proyecto" className="contact__input"/>
+                    <input type="text" name="project" value={form.project} onChange={handleChange} placeholder="Proyecto" className="contact__input"/>
 
-                    <textarea name="" id="" cols="0" rows="10" placeholder="Mensaje" className="contact__input"></textarea>
+                    <textarea name="message" value={form.message} onChange={handleChange} cols="0" rows="10" placeholder="Mensaje" className="contact__input"></textarea>
 
-                    <input type="submit" value="Envieme un mensaje" className="button contact__button" />
+                    <button type="submit" className="button contact__button">Envie un mensaje</button>
                 </form>
 
                 {/* <div>

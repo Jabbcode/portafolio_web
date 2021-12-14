@@ -28,6 +28,7 @@ function Education() {
                     educationData.map( ( data ) => {
                         return (
                             <EducationContent 
+                                key={data.speciality}
                                 fecha={ data.fecha } 
                                 university={ data.university } 
                                 race={ data.race } 

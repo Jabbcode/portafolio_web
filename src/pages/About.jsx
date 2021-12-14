@@ -59,7 +59,7 @@ function About() {
 
                         { 
                             informationData.map( (data ) => {
-                                return <Information icon={ data.icon } body={ data.body } />   
+                                return <Information key={data.icon} icon={ data.icon } body={ data.body } />   
                             }) 
                         }
 
@@ -70,7 +70,7 @@ function About() {
                         
                         { 
                             experience_supportData.map( (data ) => {
-                                return <ExperienceSupport icon={ data.icon } subtitle={ data.subtitle } small={ data.small } />
+                                return <ExperienceSupport key={data.icon} icon={ data.icon } subtitle={ data.subtitle } small={ data.small } />
                             }) 
                         }
 

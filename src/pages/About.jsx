@@ -45,9 +45,9 @@ function About() {
             <div className="about__container bd-grid">
                 <div className="about__data">
                     <p className="about__description">
-                        Hola, soy un desarrollador frontend, apasionado por crear y desarrollar 
-                        aplicaciones web. Trabajo con diferentes herramientas, con las cuales poder 
-                        cumplir con lo que tengas en mente. Tengo varios años de experiencia en 
+                        Hola, soy un desarrollador FullStack, apasionado por crear y desarrollar 
+                        aplicaciones web y moviles. Trabajo con diferentes herramientas, las cuales puedo 
+                        usar para cumplir con lo que tengas en mente. Tengo varios años de experiencia en 
                         esta área de trabajo con colaboraciones y varios proyectos de calidad.
                     </p>
                     <img src={ ImgPerfil } alt="Jefferson Brioso" className="about__img" />

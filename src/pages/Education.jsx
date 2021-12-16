@@ -4,8 +4,8 @@ const educationData = [
     {
         'fecha': '2013 - 2020',
         'university': 'Estudios Universitarios', 
-        'race': 'Titulo Universitario', 
-        'speciality': 'Ingeniero Electronico'  
+        'race': 'Título Universitario', 
+        'speciality': 'Ingeniero Electrónico'  
     },
     {
         'fecha': '2018 - 2021',

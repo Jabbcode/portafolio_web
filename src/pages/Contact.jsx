@@ -25,19 +25,19 @@ function Contact() {
             message: '',
         });
         
-        console.log(form);
+        // console.log(form);
     }
 
     return (
         <section className="contact section" id="contact">
-            <span className="section-subtitle">Contacta me</span>
+            <span className="section-subtitle">Contáctame</span>
             <h2 className="section-title">Ponte en contacto</h2>
 
             <div className="contact__container bd-grid-form">
                 <form onSubmit={handleSubmit} className="contact__form">
                     <div className="contact__inputs">
                         <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="Nombre" className="contact__input"/>
-                        <input type="mail" name="mail" value={form.mail} onChange={handleChange} placeholder="Correo Electronico" className="contact__input"/>
+                        <input type="mail" name="mail" value={form.mail} onChange={handleChange} placeholder="Correo Electrónico" className="contact__input"/>
                     </div>
                     
                     <input type="text" name="project" value={form.project} onChange={handleChange} placeholder="Proyecto" className="contact__input"/>

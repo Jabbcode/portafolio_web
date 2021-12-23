@@ -14,7 +14,7 @@ const servicesData = [
     {
         'icon': 'bx bx-brush',
         'title': 'UI/UX',
-        'description': 'Las mejores estructuras y limpias interfaces para lo que requierra, al mismo tiempo una experiencia de usuario que se ajuste a tu proyecto.'
+        'description': 'Las mejores estructuras y limpias interfaces para lo que requiera, al mismo tiempo una experiencia de usuario que se ajuste a tu proyecto.'
     },
     {
         'icon': 'bx bx-server',

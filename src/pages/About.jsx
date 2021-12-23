@@ -26,7 +26,7 @@ const experience_supportData = [
     },
     {
         'icon' : 'bx bx-briefcase',
-        'subtitle': 'Diseño y desarrollo de aplicaciones web, tanto en el area del frontend como la del Backend',
+        'subtitle': 'Diseño y desarrollo de aplicaciones web, tanto en el área del frontend como la del Backend',
         // 'small': 'Completed',
     },
     // {
